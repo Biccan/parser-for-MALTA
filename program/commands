@@ -1,0 +1,5 @@
+g++ tracertofile.cpp -o tracertofile -lutap -lxml2
+
+UPPAAL_COMPILE_ONLY=1 ./verifyta game0.xml - > game0.if
+
+UPPAAL_COMPILE_ONLY=1 ./verifyta game0.xml - | tracer - trace1.xtr

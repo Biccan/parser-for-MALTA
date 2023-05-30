@@ -1,0 +1,2596 @@
+<?xml version="1.0"?>
+<Traces result="1">Time: 5397ms
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task></Task>
+            <Finish>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task></Task>
+            <Finish>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Move Start</Type>
+            <Target>m_stone0Secondary0_TK0.F1T2</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task></Task>
+            <Finish>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Start</Type>
+            <Target>t_digging_WL0.Executing</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task></Task>
+            <Finish>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Finish</Type>
+            <Target>t_digging_WL0.Idle</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task></Task>
+            <Finish>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Move Finish</Type>
+            <Target>m_stone0Secondary0_TK0.P2</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task></Task>
+            <Finish>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Move Start</Type>
+            <Target>m_secondary0Stone0_TK0.F1T2</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task></Task>
+            <Finish>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Move Finish</Type>
+            <Target>m_secondary0Stone0_TK0.P2</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task></Task>
+            <Finish>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloading_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Start</Type>
+            <Target>t_unloading_WL0.Executing</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task></Task>
+            <Finish>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloading_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+                <Task>t_unloading_WL0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Finish</Type>
+            <Target>t_unloading_WL0.Idle</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task></Task>
+            <Finish>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+            </Finish>
+            <Iteration>1</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Start</Type>
+            <Target>t_digging_WL0.Executing</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task></Task>
+            <Finish>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+            </Finish>
+            <Iteration>1</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Move Start</Type>
+            <Target>m_stone0Secondary0_TK0.F1T2</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task></Task>
+            <Finish>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>1</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Finish</Type>
+            <Target>t_digging_WL0.Idle</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task></Task>
+            <Finish>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>1</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Move Finish</Type>
+            <Target>m_stone0Secondary0_TK0.P2</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>1</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Start</Type>
+            <Target>t_unloadingToSecond_TK0.Executing</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>1</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Finish</Type>
+            <Target>t_unloadingToSecond_TK0.Idle</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>1</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Move Start</Type>
+            <Target>m_secondary0Stone0_TK0.F1T2</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>1</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Move Finish</Type>
+            <Target>m_secondary0Stone0_TK0.P2</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloading_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>1</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Start</Type>
+            <Target>t_unloading_WL0.Executing</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloading_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+                <Task>t_unloading_WL0.Executing</Task>
+            </Finish>
+            <Iteration>1</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Finish</Type>
+            <Target>t_unloading_WL0.Idle</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloading_WL0.Executing</Task>
+            <Finish>
+            </Finish>
+            <Iteration>2</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Move Start</Type>
+            <Target>m_stone0Secondary0_TK0.F1T2</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+            </Finish>
+            <Iteration>2</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Start</Type>
+            <Target>t_digging_WL0.Executing</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>2</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Finish</Type>
+            <Target>t_digging_WL0.Idle</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>2</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Move Finish</Type>
+            <Target>m_stone0Secondary0_TK0.P2</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>2</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Start</Type>
+            <Target>t_unloadingToSecond_TK0.Executing</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>2</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Finish</Type>
+            <Target>t_unloadingToSecond_TK0.Idle</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>2</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Move Start</Type>
+            <Target>m_secondary0Stone0_TK0.F1T2</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>2</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Move Finish</Type>
+            <Target>m_secondary0Stone0_TK0.P2</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloading_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>2</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Start</Type>
+            <Target>t_unloading_WL0.Executing</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloading_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+                <Task>t_unloading_WL0.Executing</Task>
+            </Finish>
+            <Iteration>2</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Finish</Type>
+            <Target>t_unloading_WL0.Idle</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+            </Finish>
+            <Iteration>3</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Start</Type>
+            <Target>t_digging_WL0.Executing</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+            </Finish>
+            <Iteration>3</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Move Start</Type>
+            <Target>m_stone0Secondary0_TK0.F1T2</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>3</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Finish</Type>
+            <Target>t_digging_WL0.Idle</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>3</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Move Finish</Type>
+            <Target>m_stone0Secondary0_TK0.P2</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>3</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Start</Type>
+            <Target>t_unloadingToSecond_TK0.Executing</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>3</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Finish</Type>
+            <Target>t_unloadingToSecond_TK0.Idle</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>3</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Move Start</Type>
+            <Target>m_secondary0Stone0_TK0.F1T2</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>3</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Move Finish</Type>
+            <Target>m_secondary0Stone0_TK0.P2</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloading_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>3</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Start</Type>
+            <Target>t_unloading_WL0.Executing</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloading_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+                <Task>t_unloading_WL0.Executing</Task>
+            </Finish>
+            <Iteration>3</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Finish</Type>
+            <Target>t_unloading_WL0.Idle</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloading_WL0.Executing</Task>
+            <Finish>
+            </Finish>
+            <Iteration>4</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Move Start</Type>
+            <Target>m_stone0Secondary0_TK0.F1T2</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+            </Finish>
+            <Iteration>4</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Start</Type>
+            <Target>t_digging_WL0.Executing</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>4</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Finish</Type>
+            <Target>t_digging_WL0.Idle</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>4</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Move Finish</Type>
+            <Target>m_stone0Secondary0_TK0.P2</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>4</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Start</Type>
+            <Target>t_unloadingToSecond_TK0.Executing</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>4</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Finish</Type>
+            <Target>t_unloadingToSecond_TK0.Idle</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>4</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Move Start</Type>
+            <Target>m_secondary0Stone0_TK0.F1T2</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>4</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Move Finish</Type>
+            <Target>m_secondary0Stone0_TK0.P2</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloading_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>4</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Start</Type>
+            <Target>t_unloading_WL0.Executing</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloading_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+                <Task>t_unloading_WL0.Executing</Task>
+            </Finish>
+            <Iteration>4</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Finish</Type>
+            <Target>t_unloading_WL0.Idle</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+            </Finish>
+            <Iteration>5</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Start</Type>
+            <Target>t_digging_WL0.Executing</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+            </Finish>
+            <Iteration>5</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Move Start</Type>
+            <Target>m_stone0Secondary0_TK0.F1T2</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>5</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Finish</Type>
+            <Target>t_digging_WL0.Idle</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>5</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Move Finish</Type>
+            <Target>m_stone0Secondary0_TK0.P2</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>5</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Start</Type>
+            <Target>t_unloadingToSecond_TK0.Executing</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>5</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Finish</Type>
+            <Target>t_unloadingToSecond_TK0.Idle</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>5</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Move Start</Type>
+            <Target>m_secondary0Stone0_TK0.F1T2</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>5</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Move Finish</Type>
+            <Target>m_secondary0Stone0_TK0.P2</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloading_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>5</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Start</Type>
+            <Target>t_unloading_WL0.Executing</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloading_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+                <Task>t_unloading_WL0.Executing</Task>
+            </Finish>
+            <Iteration>5</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Finish</Type>
+            <Target>t_unloading_WL0.Idle</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+            </Finish>
+            <Iteration>6</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Start</Type>
+            <Target>t_digging_WL0.Executing</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+            </Finish>
+            <Iteration>6</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Move Start</Type>
+            <Target>m_stone0Secondary0_TK0.F1T2</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>6</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Finish</Type>
+            <Target>t_digging_WL0.Idle</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>6</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Move Finish</Type>
+            <Target>m_stone0Secondary0_TK0.P2</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>6</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Start</Type>
+            <Target>t_unloadingToSecond_TK0.Executing</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>6</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Finish</Type>
+            <Target>t_unloadingToSecond_TK0.Idle</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>6</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Move Start</Type>
+            <Target>m_secondary0Stone0_TK0.F1T2</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>6</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Move Finish</Type>
+            <Target>m_secondary0Stone0_TK0.P2</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloading_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>6</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Start</Type>
+            <Target>t_unloading_WL0.Executing</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloading_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+                <Task>t_unloading_WL0.Executing</Task>
+            </Finish>
+            <Iteration>6</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Finish</Type>
+            <Target>t_unloading_WL0.Idle</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+            </Finish>
+            <Iteration>7</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Start</Type>
+            <Target>t_digging_WL0.Executing</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+            </Finish>
+            <Iteration>7</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Move Start</Type>
+            <Target>m_stone0Secondary0_TK0.F1T2</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>7</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Finish</Type>
+            <Target>t_digging_WL0.Idle</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>7</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Move Finish</Type>
+            <Target>m_stone0Secondary0_TK0.P2</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>7</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Start</Type>
+            <Target>t_unloadingToSecond_TK0.Executing</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>7</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Finish</Type>
+            <Target>t_unloadingToSecond_TK0.Idle</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>7</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Move Start</Type>
+            <Target>m_secondary0Stone0_TK0.F1T2</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>7</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Move Finish</Type>
+            <Target>m_secondary0Stone0_TK0.P2</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloading_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>7</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Start</Type>
+            <Target>t_unloading_WL0.Executing</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloading_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+                <Task>t_unloading_WL0.Executing</Task>
+            </Finish>
+            <Iteration>7</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Finish</Type>
+            <Target>t_unloading_WL0.Idle</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloading_WL0.Executing</Task>
+            <Finish>
+            </Finish>
+            <Iteration>8</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Move Start</Type>
+            <Target>m_stone0Secondary0_TK0.F1T2</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+            </Finish>
+            <Iteration>8</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Start</Type>
+            <Target>t_digging_WL0.Executing</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>8</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Finish</Type>
+            <Target>t_digging_WL0.Idle</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>8</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Move Finish</Type>
+            <Target>m_stone0Secondary0_TK0.P2</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>8</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Start</Type>
+            <Target>t_unloadingToSecond_TK0.Executing</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>8</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Finish</Type>
+            <Target>t_unloadingToSecond_TK0.Idle</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>8</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Move Start</Type>
+            <Target>m_secondary0Stone0_TK0.F1T2</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>8</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Move Finish</Type>
+            <Target>m_secondary0Stone0_TK0.P2</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloading_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>8</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Start</Type>
+            <Target>t_unloading_WL0.Executing</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloading_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+                <Task>t_unloading_WL0.Executing</Task>
+            </Finish>
+            <Iteration>8</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Finish</Type>
+            <Target>t_unloading_WL0.Idle</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+            </Finish>
+            <Iteration>9</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Start</Type>
+            <Target>t_digging_WL0.Executing</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+            </Finish>
+            <Iteration>9</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Move Start</Type>
+            <Target>m_stone0Secondary0_TK0.F1T2</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>9</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Finish</Type>
+            <Target>t_digging_WL0.Idle</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>9</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Move Finish</Type>
+            <Target>m_stone0Secondary0_TK0.P2</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>9</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Start</Type>
+            <Target>t_unloadingToSecond_TK0.Executing</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>9</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Finish</Type>
+            <Target>t_unloadingToSecond_TK0.Idle</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>9</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Move Start</Type>
+            <Target>m_secondary0Stone0_TK0.F1T2</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>9</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Move Finish</Type>
+            <Target>m_secondary0Stone0_TK0.P2</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloading_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>9</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Start</Type>
+            <Target>t_unloading_WL0.Executing</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloading_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+                <Task>t_unloading_WL0.Executing</Task>
+            </Finish>
+            <Iteration>9</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Finish</Type>
+            <Target>t_unloading_WL0.Idle</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+            </Finish>
+            <Iteration>10</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Start</Type>
+            <Target>t_digging_WL0.Executing</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+            </Finish>
+            <Iteration>10</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Move Start</Type>
+            <Target>m_stone0Secondary0_TK0.F1T2</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>10</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Finish</Type>
+            <Target>t_digging_WL0.Idle</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>10</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Move Finish</Type>
+            <Target>m_stone0Secondary0_TK0.P2</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>10</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Start</Type>
+            <Target>t_unloadingToSecond_TK0.Executing</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>10</Iteration>
+        </Agent>
+    </State>
+    <Action>
+        <Agent id="0">
+            <Type>Task Finish</Type>
+            <Target>t_unloadingToSecond_TK0.Idle</Target>
+            <Time>0-3600</Time>
+        </Agent>
+    </Action>
+    <State>
+        <Agent id="0">
+            <Milestone>STONE0</Milestone>
+            <Task>t_unloadingToSecond_TK0.Executing</Task>
+            <Finish>
+                <Task>t_unloadingToSecond_TK0.Executing</Task>
+            </Finish>
+            <Iteration>0</Iteration>
+        </Agent>
+        <Agent id="1">
+            <Milestone>STONE0</Milestone>
+            <Task>t_digging_WL0.Executing</Task>
+            <Finish>
+                <Task>t_digging_WL0.Executing</Task>
+            </Finish>
+            <Iteration>10</Iteration>
+        </Agent>
+    </State>
+</Traces>
