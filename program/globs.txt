@@ -1,0 +1,59 @@
+//moveStartFrom
+P1
+//moveStartTo
+F1T2
+//moveFinishFrom
+F1T2
+//moveFinishTo
+P2
+
+//moveStart
+Move Start
+//moveFinish
+Move Finish
+
+//taskStartTo
+Executing
+//taskStartFrom
+Waiting, Idle
+//taskFinishTo
+Idle
+//taskFinishFrom
+Executing
+
+//taskStart
+Task Start
+//taskFinish
+Task Finish
+
+//milestoneNameIdentifier
+m_
+//taskNameIdentifier
+t_
+
+//milestoneValues
+STONE0,0
+STONE1,1
+PRIMARYCRUSHER0,2
+SECONDARYCRUSHER0,3
+ONTHEWAY,-1
+
+//agentsTaskNo
+0,2
+1,2
+2,3
+
+//maxTime
+3600
+
+//taskCompleteVar
+2
+
+//maxTaskNo
+3
+
+//startOffset
+1
+
+//noOfAgents
+3
